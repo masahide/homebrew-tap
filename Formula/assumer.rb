@@ -8,22 +8,22 @@ class Assumer < Formula
   version "1.0.0"
   on_macos do
     on_arm do
-      url "https://github.com/masahide/assumer/releases/download/1.0.0/darwin-arm64.tar.gz"
-      sha256 "927ab3890677ab156bd981e561c1c247359e386b8ccdd371eb8c9f0f9a4e9441"
+      url "https://github.com/masahide/assumer/releases/download/v1.0.0/darwin-arm64.tar.gz"
+      sha256 "6370306ac91582c7e8b8af752a58f62b662981fcc5aef8f672923ce3253fe8b3"
     end
     on_intel do
-      url "https://github.com/masahide/assumer/releases/download/1.0.0/darwin-amd64.tar.gz"
-      sha256 "b37d514334d471e6af411549090c0a7937a2cc2d330784f0392c8a57d0cf22a1"
+      url "https://github.com/masahide/assumer/releases/download/v1.0.0/darwin-amd64.tar.gz"
+      sha256 "2a6c29767bf52c38bfb60ba2a34115d1643ac6fb90fc831e30b823111b34453f"
     end
   end
   on_linux do
     on_arm do
-      url "https://github.com/masahide/assumer/releases/download/1.0.0/linux-arm64.tar.gz"
-      sha256 "ddcfbcdb1a390b1f3eb0290101a2711d0d35d72840dbcba16eda94abebfb4aed"
+      url "https://github.com/masahide/assumer/releases/download/v1.0.0/linux-arm64.tar.gz"
+      sha256 "d906726d9f6378cbbe8c04b95e1c54a022b5f6ded2ad59eb477ce5fc9fdb5338"
     end
     on_intel do
-      url "https://github.com/masahide/assumer/releases/download/1.0.0/linux-amd64.tar.gz"
-	  sha256 "6d1ad6d77e4ec99b4652f78c44ee5ae1d42a06af976b6d65a19663c5435815ff"
+      url "https://github.com/masahide/assumer/releases/download/v1.0.0/linux-amd64.tar.gz"
+	  sha256 "9e13f5928b9ddcb5757eb8992db20fec9cfaec94d7f70f34a1c4c9390715e624"
     end
   end
 
