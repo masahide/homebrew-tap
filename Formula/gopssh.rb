@@ -8,22 +8,22 @@ class Gopssh < Formula
   version "1.0.0"
   on_macos do
     on_arm do
-      url "https://github.com/masahide/gopssh/releases/download/v1.0.3/darwin-arm64.tar.gz"
-      sha256 "2238d6fb3144478e1fbfefa8c2db357020db593eeb77f0dfeaebb47d8365a507"
+      url "https://github.com/masahide/gopssh/releases/download/v1.0.4/darwin-arm64.tar.gz"
+      sha256 "2fd3e80a53e5ad3508df3a26c3e9663545f3ef97105fc63d64e5c5ed440484ec"
     end
     on_intel do
-      url "https://github.com/masahide/gopssh/releases/download/v1.0.3/darwin-amd64.tar.gz"
-      sha256 "e546b8840119052adbc5bc1b5bf51d04c631aabb9ab593ba983ab49187bc1d3b"
+      url "https://github.com/masahide/gopssh/releases/download/v1.0.4/darwin-amd64.tar.gz"
+      sha256 "3b3426a8f602bfa376c1c6a7fb57b8c3d760ef2a655a0b90a69deaca1e3bce08"
     end
   end
   on_linux do
     on_arm do
-      url "https://github.com/masahide/gopssh/releases/download/v1.0.3/linux-arm64.tar.gz"
-      sha256 "7bcd7f056647c81626ff97273a20fab7b315855f26f062b13667fe6248091c15"
+      url "https://github.com/masahide/gopssh/releases/download/v1.0.4/linux-arm64.tar.gz"
+      sha256 "8d4ed7e20c41157be5dbe88b982fe97680c27e94e98a149d5016a465d1125b0c"
     end
     on_intel do
-      url "https://github.com/masahide/gopssh/releases/download/v1.0.3/linux-amd64.tar.gz"
-	  sha256 "4c4c05effe044063112152d37f6f2096200c50e46f0f3daa26022b1b982c20e3"
+      url "https://github.com/masahide/gopssh/releases/download/v1.0.4/linux-amd64.tar.gz"
+	  sha256 "e56425d74d41544c4433ea2f56ad0b7748d0975e6e3d34e20715d285bf194bac"
     end
   end
 
